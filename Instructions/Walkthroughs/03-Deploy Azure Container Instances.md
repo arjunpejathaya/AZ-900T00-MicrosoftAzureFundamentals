@@ -31,11 +31,11 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 
 
-4. Configure the Networking tab (replace **xxxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values.
+4. Configure the Networking tab. Leave all other settings at their default values.
 
 	| Setting| Value|
 	|--|--|
-	| DNS name label| **mycontainerdnsxxxxx** |
+	| DNS name label| **mycontainerdns-(Add a 6 digit Random Number here)** |
 
 	
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (replacing the xxxxx) and re-deploy. 
